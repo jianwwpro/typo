@@ -30,6 +30,7 @@
   "settings.prompts.shortcuts.instruction_placeholder": "如果需要，使用 {{args}} 和 {{text}} 占位符",
   "settings.prompts.shortcuts.remove": "移除",
   "settings.prompts.shortcuts.hint": "示例：输入以 <code>/tr:zh</code> 结尾或整行如 <code>/prompt Translate to Japanese in polite style</code>。",
+  "settings.cancel": "取消",
   "settings.save": "保存",
   "main.status.copied": "已复制",
   "main.error.no_text": "没有待润色的文本",

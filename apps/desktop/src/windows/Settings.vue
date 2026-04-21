@@ -2,7 +2,7 @@
 import type { Locale } from '@typo/languages'
 import { invoke } from '@tauri-apps/api/core'
 import { localeNames, locales } from '@typo/languages'
-import { EyeIcon, EyeOffIcon, PlusIcon, RotateCcwIcon, SaveIcon, Trash2Icon } from 'lucide-vue-next'
+import { EyeIcon, EyeOffIcon, PlusIcon, RotateCcwIcon, SaveIcon, Trash2Icon, XIcon } from 'lucide-vue-next'
 import { nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -476,7 +476,11 @@ async function onSubmit() {
             </div>
           </template>
 
-          <div class="fixed bottom-4 right-8 flex justify-end">
+          <div class="fixed bottom-4 right-8 flex justify-end gap-2">
+            <Button variant="outline" type="button" @click="setCurrentWindow('Main')">
+              <XIcon class="w-4 h-4" />
+              {{ t('settings.cancel') }}
+            </Button>
             <Button variant="secondary" type="submit">
               <SaveIcon class="w-4 h-4" />
               {{ t('settings.save') }}

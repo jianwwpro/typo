@@ -30,6 +30,7 @@
   "settings.prompts.shortcuts.instruction_placeholder": "Use {{args}} and {{text}} placeholders if needed",
   "settings.prompts.shortcuts.remove": "Remove",
   "settings.prompts.shortcuts.hint": "Example: input ends with <code>/tr:zh</code> or a full line like <code>/prompt Translate to Japanese in polite style</code>.",
+  "settings.cancel": "Cancel",
   "settings.save": "Save",
   "main.status.copied": "Copied",
   "main.error.no_text": "No text to improve",

@@ -30,6 +30,7 @@
   "settings.prompts.shortcuts.instruction_placeholder": "必要に応じて {{args}} や {{text}} プレースホルダーを使用してください",
   "settings.prompts.shortcuts.remove": "削除",
   "settings.prompts.shortcuts.hint": "例：入力の末尾が <code>/tr:zh</code> であるか、<code>/prompt Translate to Japanese in polite style</code> のような行全体。",
+  "settings.cancel": "キャンセル",
   "settings.save": "保存",
   "main.status.copied": "コピー済み",
   "main.error.no_text": "改善するテキストがありません",
